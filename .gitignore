@@ -1,0 +1,21 @@
+# --- Секреты: НЕ коммитить ---
+secret_data.py
+client_secrets.json
+client_secrets2.json
+*-oauth2.json
+anon.session
+*.session
+*.session-journal
+
+# --- Рабочая директория рендера ---
+temp/*
+!temp/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- OS ---
+.DS_Store
